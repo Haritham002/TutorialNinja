@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Test.tutorialNinja.Listeners.MyListeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Test.tutorialNinjaProj.Login">
+        <methods>
+          <include name="tearMethod"/>
+          <include name="setup"/>
+          <include name="VerifyLoginWithInvalidEmailAndValiPassword"/>
+        </methods>
+      </class> <!-- Test.tutorialNinjaProj.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
